@@ -1,0 +1,6 @@
+   .wrapper{
+       outline: none;
+       @import 'index-media-queries-header';
+       @import 'index-media-queries-main';
+       @import 'index-media-queries-footer';
+}

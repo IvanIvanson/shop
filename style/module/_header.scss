@@ -1,0 +1,131 @@
+.header {
+    width: 100%;
+    background-color: #222222;
+    display: block;
+    z-index: 5;
+    
+    .headerContent {
+        max-width: $max-width;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 28px;
+        padding-bottom: 20px;
+// padding-left: 36px;
+// padding-right: 36px;
+      .header__left{
+          .search {
+margin-left: 41px;
+cursor: pointer;
+}
+      } 
+      .header__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .header__item:not(:last-child) {
+            margin-right: 25px;
+        }
+        .header__item:last-child {
+            margin-left: 17px;
+        }
+        .header__item{
+           
+
+            //  menu 
+.menu{
+display: inline-block;
+position: relative;
+z-index: 10;
+.header__item-menu{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    
+    }
+.menu-list{
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 232px;
+    transition: all 1s ease;
+    opacity: 0;
+    // overflow: scroll;
+    z-index: 10;
+    margin-top: 32px;
+    list-style: none;
+    background: white;
+    padding-top: 37px;
+    padding-left: 34px;
+    margin-left: 179px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    .close{
+        float: right;
+        margin-right: 17px;
+        margin-top: -16px;
+        margin-bottom: -9px;
+    
+    }
+    summary{
+        display: block;
+        cursor: pointer;
+    }
+    summary::webkit-details-marker{
+        display: none;
+    }
+    .menu-list_item{
+        padding-top: 24px;
+        font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $main-font;
+    line-height: 17px;
+    color: #F16D7F;
+    
+    }
+    .item-menu{
+        color:black
+    }
+    .menu-list_item {
+        ul>li{
+        list-style: none;
+        padding-top: 11px;   
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $main-font;
+        line-height: 17px;
+        color: #6F6E6E;
+        a{
+            text-decoration: none;
+            color: #6F6E6E;
+         cursor: pointer;
+        }
+    }
+        }
+       
+}
+
+}
+.menu._active{ 
+.menu-list{
+display: block;
+height:calc(100vh - 70px);
+opacity: 1;
+z-index: 10;
+margin-top: 30px;
+}
+}
+// end menu 
+.account_icon{
+    cursor: pointer;
+}
+.bascket-icon{
+    cursor: pointer;
+}
+        }
+
+      }
+    }
+}
+

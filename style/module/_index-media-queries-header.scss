@@ -1,0 +1,145 @@
+@media  (max-width: 1024px) {
+   
+    .header {
+       
+        .headerContent {
+           padding-left: 32px;
+           padding-right: 32px;
+          .header__left{
+            
+              .search {
+    margin-left: 41px;
+    cursor: pointer;
+    }
+          } 
+          .header__right{
+          
+            .header__item:first-child{
+               
+                margin-right: 25px;
+                
+            }
+           
+            .header__item{
+    
+                //  menu 
+    .menu{
+   
+    .menu-list{
+       
+        margin-left: 0px;
+        width: 200px;
+        right: -170px;
+    }
+    
+    }
+    
+    // end menu 
+   
+            }
+          }
+        }
+    }
+}
+
+@media  (max-width: 768px) {
+   
+    .header {
+       
+        .headerContent {
+           padding-left: 32px;
+           padding-right: 32px;
+          .header__left{
+            
+              .search {
+    margin-left: 41px;
+    cursor: pointer;
+    }
+          } 
+          .header__right{
+          
+            .header__item:first-child{
+               
+                margin-right: 25px;
+                
+            }
+           
+            .header__item{
+    
+                //  menu 
+    .menu{
+   
+    .menu-list{
+       
+        margin-left: 0px;
+        right: -180px;
+        
+    }
+    
+
+    }
+    .menu._active{
+        .menu-list {
+    overflow-y: scroll;
+        }
+    }
+    // end menu 
+   
+            }
+          }
+        }
+    }
+}
+
+@media  (max-width: 425px) {
+   
+    .header {
+       
+        .headerContent {
+            padding-left: 16px;
+            padding-right: 16px;
+          .header__left{
+             
+              .search {
+    margin-left: 41px;
+    cursor: pointer;
+    }
+          } 
+          .header__right{
+           display: block;
+            .header__item:first-child{
+                margin-right: 16px;
+                
+            }
+            .header__item:not(:first-child) {
+img{
+                    display: none;
+                    
+                }
+            }
+            .header__item{
+    
+                //  menu 
+    .menu{
+   
+    .menu-list{
+       
+        margin-left: -122px;
+        right: -30px;
+        
+    }
+    
+    }
+    .menu._active{
+        .menu-list{
+        margin-top: 35px;
+       
+    }
+    }
+    // end menu 
+   
+            }
+          }
+        }
+    }
+}

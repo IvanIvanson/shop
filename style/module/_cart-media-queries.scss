@@ -1,0 +1,6 @@
+.wrapper{
+    outline: none;
+    @import 'index-media-queries-header';
+    @import 'cart-media-queries-main';
+    @import 'index-media-queries-footer';
+}
